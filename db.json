@@ -1,0 +1,98 @@
+{
+  "pickupPoints": [
+    { "id": "86315e07-ff69-4be1-af51-9f37d5649fdd", "title": "ПВЗ #1" },
+    { "id": "71f31745-a829-4047-bc24-64e7ef4d4c2d", "title": "ПВЗ #2" },
+    { "id": "49cbfeab-a190-4b5d-b940-6073fa442f8c", "title": "ПВЗ #3" },
+    { "id": "016d1344-3375-401b-9b4a-44a1dba4efaa", "title": "ПВЗ #4" },
+    { "id": "908a0fd6-ca27-42df-9cd3-e2b47b56ce2c", "title": "ПВЗ #5" }
+  ],
+  "dates": [
+    {
+      "id": "86315e07-ff69-4be1-af51-9f37d5649fdd",
+      "data": {
+        "2025-01-22": { "availableForOrderPickup": true },
+        "2025-01-23": { "availableForOrderPickup": false },
+        "2025-01-24": { "availableForOrderPickup": true },
+        "2025-01-25": { "availableForOrderPickup": true },
+        "2025-01-26": { "availableForOrderPickup": false }
+      }
+    },
+    {
+      "id": "71f31745-a829-4047-bc24-64e7ef4d4c2d",
+      "data": {
+        "2025-01-23": { "availableForOrderPickup": true },
+        "2025-01-24": { "availableForOrderPickup": true },
+        "2025-01-25": { "availableForOrderPickup": false },
+        "2025-01-26": { "availableForOrderPickup": true },
+        "2025-01-27": { "availableForOrderPickup": false }
+      }
+    },
+    {
+      "id": "49cbfeab-a190-4b5d-b940-6073fa442f8c",
+      "data": {
+        "2025-01-22": { "availableForOrderPickup": false },
+        "2025-01-23": { "availableForOrderPickup": true },
+        "2025-01-24": { "availableForOrderPickup": false },
+        "2025-01-25": { "availableForOrderPickup": true },
+        "2025-01-26": { "availableForOrderPickup": true }
+      }
+    },
+    {
+      "id": "016d1344-3375-401b-9b4a-44a1dba4efaa",
+      "data": {
+        "2025-01-24": { "availableForOrderPickup": true },
+        "2025-01-25": { "availableForOrderPickup": true },
+        "2025-01-26": { "availableForOrderPickup": true },
+        "2025-01-27": { "availableForOrderPickup": false },
+        "2025-01-28": { "availableForOrderPickup": false }
+      }
+    },
+    {
+      "id": "908a0fd6-ca27-42df-9cd3-e2b47b56ce2c",
+      "data": {
+        "2025-01-22": { "availableForOrderPickup": true },
+        "2025-01-23": { "availableForOrderPickup": true },
+        "2025-01-24": { "availableForOrderPickup": false },
+        "2025-01-25": { "availableForOrderPickup": false },
+        "2025-01-26": { "availableForOrderPickup": true }
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "d1a3f5b7-6d3c-4e3f-8a0b-3d9f7c1d6f2a",
+      "date": "2025-01-22",
+      "pickupPoint": { "id": "86315e07-ff69-4be1-af51-9f37d5649fdd", "title": "ПВЗ #1" },
+      "packageNumber": 101,
+      "recipientName": "Иван"
+    },
+    {
+      "id": "a2c3e8d9-1b7d-4d8c-9f3b-5e2d1f7a3b9c",
+      "date": "2025-01-23",
+      "pickupPoint": { "id": "71f31745-a829-4047-bc24-64e7ef4d4c2d", "title": "ПВЗ #2" },
+      "packageNumber": 102,
+      "recipientName": "Петр"
+    },
+    {
+      "id": "b5f7d3c9-7e8b-4f3d-a1e9-4d9f2c7e1d2a",
+      "date": "2025-01-23",
+      "pickupPoint": { "id": "49cbfeab-a190-4b5d-b940-6073fa442f8c", "title": "ПВЗ #3" },
+      "packageNumber": 103,
+      "recipientName": "Сергей"
+    },
+    {
+      "id": "c7e9f8d2-3d9b-4f1a-8e9f-7b2d1f6c9a3d",
+      "date": "2025-01-24",
+      "pickupPoint": { "id": "016d1344-3375-401b-9b4a-44a1dba4efaa", "title": "ПВЗ #4" },
+      "packageNumber": 104,
+      "recipientName": "Алексей"
+    },
+    {
+      "id": "d9e3b2f7-4b8c-4f3d-9f2b-7d1f6e2a3d4b",
+      "date": "2025-01-22",
+      "pickupPoint": { "id": "908a0fd6-ca27-42df-9cd3-e2b47b56ce2c", "title": "ПВЗ #5" },
+      "packageNumber": 105,
+      "recipientName": "Андрей"
+    }
+  ]
+}
